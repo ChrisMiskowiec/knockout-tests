@@ -1,0 +1,7 @@
+﻿<i class="fa fa-3x" data-bind="css: {
+   'fa-exclamation-circle': status() == 'error' || status() == 'warning',
+   'fa-check-circle': status() == 'ok',
+   'text-danger': status() == 'error',
+   'text-warning': status() == 'warning',
+   'text-success': status() == 'ok'
+   }, click: cycle"></i>
